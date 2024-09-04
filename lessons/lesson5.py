@@ -20,7 +20,6 @@ print(mutable_list)
 # Добавляем в начало списка "0"
 mutable_list.insert(0, 0)
 print(mutable_list)
-print(mutable_list)
 
 # Очистили список
 mutable_list.clear()
