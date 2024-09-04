@@ -6,8 +6,10 @@ try:
 except:
     print("Кортеж - не список, его нельзя изменять, но можно изменять его изменяемые значения")
 
-mutable_list = [1, 2, 3, 'a', 'b', 'c'] + [3, 4, 5,]
+mutable_list = [1, 9, 3, 'a', 'b', 'c'] + [3, 4, 5,]
 print(mutable_list)
+
+mutable_list[1] = 2
 
 mutable_list.extend(['d', 'e', 'f'])
 print(mutable_list)
